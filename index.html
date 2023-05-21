@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title> 
+    <style>
+        h1 {
+    color: rgb(255, 255, 255); text-shadow: 1px 2px 0px black; 
+    font-family: monospace; margin-top: 100px; font-size: 85px; text-align: center; 
+}
+.tit-box {
+    padding: 10px; background-color: rgba(134, 134, 134, 0.521); border-radius: 10px; word-wrap: break-word;
+    backdrop-filter: blur(5px); z-index: 2; width: 90%; height: auto; margin: 100px auto;
+}
+h2 {
+    font-family: monospace;  margin-top: -50px; font-size: 40px; text-align: center; color: rgb(255, 255, 255);
+}
+nav {
+    background-color: rgb(6, 6, 44);width: 110%; position: fixed; z-index: 1;
+    top: 0px; left: 0px; height: 50px; padding: 10px;    
+}
+.text-prin {
+    font-family: sans-serif;  margin-top: -20px;
+    font-size: 30px; text-align: center; 
+    color: rgb(255, 255, 255); 
+}
+body {
+    background-color: rgb(13, 12, 27);
+}
+.box {
+
+    text-align: center; background-color: rgb(24, 49, 71); border-radius: 20px; padding: 10px; 
+    font-family: monospace; color: white; width: 90%; height: auto; margin: 100px auto;
+}
+.otras-box {
+    text-align: center; background-color: rgb(24, 49, 71); border-radius: 20px; padding: 10px; 
+    font-family: monospace; color: white; width: 90%; height: auto; margin: 20px auto;
+}
+.flex-box {
+    display: grid; grid-template-columns: minmax(45%, 1fr) minmax(45%, 1fr); grid-gap: 0px 20px; word-wrap: break-word;
+}
+.flexx-box {
+    display: grid; grid-template-columns: minmax(50%, 1fr); grid-gap: 0px 20px; word-wrap: break-word;
+}
+.flex {
+    background-color: rgb(39, 68, 94); border-radius: 20px; padding: 10px; margin-top: 20px; transition: all 0.3s ease 0s;
+}
+.otras-flex {
+    background-color: rgb(39, 68, 94); border-radius: 20px; padding: 10px; margin-top: 20px;
+}
+.flex:hover {
+    background-color: rgb(51, 91, 126); transform: scale(1.02);
+}
+.logo {
+    width: 120px; height: auto;     
+}
+h3 {
+    text-align: center; font-size: 35px; 
+}
+h4 {
+    font-size: auto;
+}
+p {
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none; color: white; font-family: monospace; font-size: 15px;
+    padding: 5px; transition: all 0.3s ease 0s;
+}
+nav ul li a:hover{
+    color: rgb(109, 209, 255);
+}
+nav ul li {
+    list-style: none; display: inline-block; cursor: pointer;
+    border-radius: 10px; transition: all 0.3s ease 0s; margin-left: -5px;
+}
+nav ul li:hover{
+    transform: scale(1.2);
+}   
+nav {
+    display: flex; justify-content: flex-start;
+}
+.cer {
+   width: 100%; height: auto; border-radius: 10px;
+}
+footer {
+    background-color: rgb(28, 88, 139); justify-content: center; text-align: center;
+    position: absolute; width: 100%; left: 0px;
+}
+h5 {
+    color: white; font-family: monospace; font-size: 20px;
+}
+    </style>
+</head>
+<body>
+    <!-- barra de navegacion -->
+
+    <nav>
+        <ul>
+            <li><a href="https://wa.me/3758650203?text="Hola,%20inserta tu mensaje aqui" target="_blank">contactarme</a></li>
+            <li><a href="#seccion1" class="scroll-link">cualidades</a></li>
+            <li><a href="#seccion3" class="scroll-link">inicio</a></li>
+        </ul>
+    </nav>
+
+    <!-- titulo, subtitulo, texto -->
+
+    <div class="tit-box" id="seccion3"><h1><strong>lopez Fabian</strong></h1><h2><br/>DESARROLLADOR WEB<br/><br/></h2><p class="text-prin">Soy un desarrollador web junior con<br/> experiencia en:<br/> estructuras de las paginas web,<br/> diseño, planificacion, front-end y responsive web</p></div>
+    
+    <!-- Lenguajes que se y utilizo -->
+    
+    <div class="box"><h3>TECNOLOGIAS</h3>
+    <div class="flex-box">
+
+       <div class="flex"><img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png" class="logo"><h4 color="white" class="text-prin"><br/>100%</h4></div>
+       <div class="flex"><img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" class="logo"><h4 color="white" class="text-prin"><br/>100%</h4></div>
+       <div class="flex"><img src="https://cdn-icons-png.flaticon.com/512/919/919828.png" class="logo"><h4 color="white" class="text-prin"><br/>51%</h4></div>
+       <div class="flex"><img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" class="logo"><h4 color="white" class="text-prin"><br/>76%</h4></div>
+       <div class="flex"><img src="https://cdn-icons-png.flaticon.com/512/919/919830.png" class="logo"><h4 color="white" class="text-prin"><br/>21%</h4></div>
+       <div class="flex"><img src="https://cdn-icons-png.flaticon.com/512/3161/3161158.png" class="logo"><h4 color="white" class="text-prin"><br/>8%</h4></div>
+    </div><br/><br/>
+    </div>
+
+    <!-- mis habilidades -->
+
+    <div class="otras-box"><h3>MIS CUALIDADES</h3>
+    <div class="flexx-box" id="seccion1">
+       <div class="otras-flex"><h4 color="white" class="text-prin"><br/>CODIGO ORDENADO</h4><p color="white">El codigo esta ordenado y comentado de manera que cualquiera puede saber que parte del codigo editar, encontrar o borrar</p></div>
+       <div class="otras-flex"><h4 color="white" class="text-prin"><br/>TRABAJO EN EQUIPO</h4><p color="white">El trabajo en equipo es fundamental para realizar ciertas tareas, ademas de ser abierto a sugerencias tambien ayudo, planifico, entiendo y aprendo con mi equipo</p></div>
+       <div class="otras-flex"><h4 color="white" class="text-prin"><br/>ADAPTABLE</h4><p color="white">Me adapto a cualquier espacio de trabajo, ademas de las necesidades tanto del cliente como del tema, empresa y especificas</p></div>
+       <div class="otras-flex"><h4 color="white" class="text-prin"><br/>CONOCIMIENTOS</h4><p color="white">Cuento con un amplio conocimiento de desarrollo web, ya llevo 1 año aprendiendo y cada dia aprendo nuevas funciones, formas de trabajar y lenguajes</p></div>
+    </div>
+    </div><hr>
+
+    <!-- sobre mi -->
+
+    <br/><div class="otras-box"><h3>SOBRE MI</h3>
+        <div class="otras-flex"><p color="white">¡Hola! me llamo Fabian soy un desarrollador web, tengo 15 años y soy de argentina (misiones).<br/>Aprendi a desarrollar webs por mi cuenta atravez de videos tutoriales y apps para aprenderlo.<br/>Me encanta programar empeze usando scratch para crear juegos, luego aprendi mi primer lenguaje el cual es c++ , con el tiempo empeze a usar godot engine y roblox studio para crear juegos 3D, un dia me intereso aprender un nuevo lenguaje, entonces decidi aprender html (ya se que no se considera un lenguaje de programacion) gracias a eso estoy aqui, creando mi portafolio de modo de practica, aun no quiero trabajo XD.<br/>Tambien cuento con 4 certificados que obtuve al completar esos cursos en linea, los cuales mostrare a continuacion (No pude importar el quinto certificado pero con 3 ya es suficiente :)</p></div>
+    </div>
+
+    <!-- certificados -->
+
+    <div class="otras-box">
+    <div class="flex-box">
+
+    <div class="flex">
+    <img src="certificado1.jpeg" class="cer">
+    </div>
+
+    <div class="flex">
+        <img src="certificado2.jpeg" class="cer">
+        </div>
+
+        <div class="flex">
+            <img src="cetificado3.jpeg" class="cer">
+            </div>
+
+    </div>
+    </div>
+    <!-- footer de la pagina -->
+
+    <footer>
+        <h5>2023 Copyright © Lopez Fabian</h5>
+        <a href="https://www.instagram.com/25_fabi_?r=nametag"><img style="margin-right: 20px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png" width="70px" height="auto"></a>
+        <a href="https://www.sololearn.com/profile/28895073"><img style="margin-left: 20px;" src="https://blob.sololearn.com/avatars/sololearn.png" width="70px" height="auto"></a>
+    </footer>
+
+
+
+
+    <!-- script para el movimiento de secciones-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var scrollLinks = document.getElementsByClassName('scroll-link');
+    
+          for (var i = 0; i < scrollLinks.length; i++) {
+            scrollLinks[i].addEventListener('click', scrollToSection);
+          }
+    
+          function scrollToSection(event) {
+            event.preventDefault();
+    
+            var targetId = this.getAttribute('href').substring(1);
+            var targetElement = document.getElementById(targetId);
+    
+            if (targetElement) {
+              var offsetTop = targetElement.offsetTop;
+              var offsetLeft = targetElement.offsetLeft;
+    
+              window.scrollTo({
+                top: offsetTop,
+                left: offsetLeft,
+                behavior: 'smooth'
+              });
+            }
+          }
+        });
+      </script>
+
+</body>
+</html>
